@@ -194,7 +194,7 @@ const sendToContractRequestDefaults = {
   amount: 0,
   gasLimit: 200000,
   // FIXME: Does not support string gasPrice although the doc says it does.
-  gasPrice: 0.0000004,
+  gasPrice: 0.00005,
 }
 
 export interface IRPCWaitForLogsRequest {
